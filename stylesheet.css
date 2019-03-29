@@ -1,0 +1,75 @@
+html{
+position: absolute;
+overflow: scroll;
+}
+
+body{
+margin:0;
+padding-bottom:58px;
+}
+
+header{
+position: fixed;
+width:100%;
+}
+
+div.translate{
+width:cover;
+height:29px;
+background-color: #F5F5F5;
+margin:0;
+padding: 0;
+border-top:3.8px solid red;
+}
+
+span.en{
+background-color: red;
+color:white;
+margin-left: 300px;
+}
+
+span.bn:hover{
+background-color: red;
+color:white;
+}
+
+span.en,span.bn{
+padding:13.2px;
+}
+
+div.logo{
+display: flex;
+align-items: center;
+height:80px;
+width:100%;
+}
+
+img{
+margin-left: 285px;
+}
+
+div.nav{
+height:48px;
+background-color: #F5F5F5;
+display: flex;
+align-items: center;
+}
+
+div.buttons{
+margin-left: 300px;
+
+}
+
+button{
+padding:5px;
+padding-right: 30px;
+font-size:12px;
+font-weight: bolder;
+}
+
+footer{
+    background-color: #F5F5F5;
+    margin-top: 1000px;
+    padding: 30px;
+}
+
